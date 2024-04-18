@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/registrese.css">
+    <title>Registrese</title>
+</head>
+<body>
+
+  
+    <header id="encabezdo">
+        <nav class="menu">
+            <a class="hipervin" href="../index.html">Inicio</a>
+            <a class="hipervin" href="listas.html">Listas</a>
+            <a class="hipervin" href="tabla.html">Tabla</a> 
+            <a class="hipervin" href="galeria.html">Galeria</a>
+            <a class="hipervin" href="http://www.google.com" target="_blank ">Google</a>
+            <a class="hipervin" href="productos.html"> Productos</a>
+            <!-- <a href="./templates/formulario.html">formulario</a> -->
+            <a class="hipervin" href="registrese.html">Registrese</a>
+
+        </nav>
+    </header>
+<br>
+ <main>
+
+    <section>
+
+        <form  action="https://formspree.io/f/mleqpjea" method="post">
+           
+        <fieldset >
+            
+           <legend>Datos Personales</legend>
+            
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+            <br>
+           
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" min="8"value>
+            </div>
+             <br>
+            
+             <div>
+                <label for="fecha_de_nacimiento">Fecha Nac.:(dd/mm/yyyy):</label>
+               <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento" >
+            </div>
+            <br>
+            <div>
+                <label for="direccion">Direccion:</label>
+                <input type="text" name="direccion" id="direccion" >
+            </div>
+            <br>
+            <div>
+                <label for="codigo_postal">C.P:</label>
+                <input type="text" name="codigo_postal" id="codigo_postal" >
+            </div>
+
+            <br>    
+
+            <div>
+                <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+             </div>
+             <br>
+             <div>
+               <p> Genero (Radio)</p>
+                
+                <input type="radio"name="gender" value="hombre"> Hombre
+                <input type="radio" name="gender" value="mujer" > Mujer
+                <input type="radio" name="gender" value="otro"> Otro
+            
+            </div>
+              <br>        
+                                   
+            <div> 
+                 <p>Conoce las nuevas tecnogias gadget?</p>  
+                 <input type="checkbox"name="conoce" value="si" > Si
+                 <input type="checkbox"name="conoce" value="no" > No
+                 <input type="checkbox" name="conoce" value="poco" > Poco
+                 <input type="checkbox"name="conoce" value="nada" > Nada
+                </div>
+                <br>
+                <a href="mailto:grupocodoacodo@gmail.com?subject=tpoN1°">Enviar Correo Electronico</a>
+            <hr>
+            <div>
+                <label for="comentario">Comentario: </label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="200"></textarea>
+               </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>    
+
+        </fieldset>
+    </form> 
+</section>
+<img  src="https://img.freepik.com/foto-gratis/tecnologia-fondo-toque-humano-nueva-version-moderna-creacion-adan_53876-129794.jpg?w=740&t=st=1711721872~exp=1711722472~hmac=f7c8a468aa6fba207189c211390491195a28993565ba94dc620b014c2eb28e10">
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+</body>
+</html>

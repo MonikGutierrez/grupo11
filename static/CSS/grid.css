@@ -1,0 +1,21 @@
+#encabezado{
+    display: grid;
+    
+    } 
+ 
+
+
+.titulos h1{
+    display: grid;
+    grid-template-columns: repeat(1fr) ;
+}
+    
+
+
+
+.grid-conteiner{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    
+    grid-gap: 50px; 
+}

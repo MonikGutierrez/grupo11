@@ -1,0 +1,67 @@
+/* “:root”, es un selector especial
+ que se utiliza principalmente 
+ para definir variables personalizadas de CSS */
+ :root{
+    --bg-color:#181419;
+    --primary-color:#9f3647;
+    --secondary-color:#ffc098;
+    --third-color:#db4648;
+    --third-bis-color:#db4648f2;
+    --bg-input-color:#4f31572c;
+    --color-fondo-header: rgb(209, 248, 209);
+    --color-texto-header: rgb(7, 110, 39); 
+   
+
+
+
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    /* color:#FFF; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* Asignar color al fondo y tipo de letra al body. */
+body{
+    background: linear-gradient(to right, var(--secondary-color), rgb(171, 243, 171), var(--secondary-color));
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-color);
+}
+
+#encabezado{
+    background: var(--color-fondo-header) ;
+    text-align: center;
+}
+ #logo {
+
+    width: 5vw;
+    height: 5vw;
+    margin-right: 600px;
+    
+    
+    
+ }
+#encabezado div,
+#encabezado nav{
+    display: inline;
+    vertical-align: middle;
+        
+    } 
+.hipervin{
+color: var(--color-texto-header);
+text-decoration: none;
+margin: 0 10px ;
+}
+
+ .icon{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 25 vw;
+ }
