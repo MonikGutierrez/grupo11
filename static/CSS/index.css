@@ -32,7 +32,41 @@ body{
     background: linear-gradient(to right, var(--secondary-color), rgb(171, 243, 171), var(--secondary-color));
     font-family: 'Nunito', sans-serif;
     color: var(--primary-color);
+
+
 }
+.animacion {
+    position:relative;
+    height: 40vw;
+}
+
+.imagen {
+    position:absolute;
+    top: 10vh;
+    left: 15vw;
+    width: 80%;
+    height: 60%;
+    background-repeat:inherit;
+    background-size: contain;
+    opacity: 0; /* Inicialmente oculto */
+    animation-name: miAnimacion;
+    animation-duration: 6s; /* La suma de los tiempos de las imágenes */
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    transition: transform 0.35 ease-in-out;
+}
+
+@keyframes miAnimacion {
+    70%, 1000% {
+        opacity: 0;
+    }
+    100%, 100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 #encabezado{
     background: var(--color-fondo-header) ;

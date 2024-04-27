@@ -112,6 +112,13 @@ margin-top: 30px;
 margin-bottom: 30px;
 margin-left: 30px;
 margin-right: 30px;
+background-color: #71c94b;
+:hover{
+    transform: scale(1.8);
+    color:#9f3647;
+ }
+   
+
 
 
 }
@@ -125,12 +132,15 @@ margin-right: 30px;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.6);
     border-radius: 1%;
     overflow: hidden;
+    transition: transform 0.35 ease-in-out;
+   
 }
 
 .imagen-responsive{
 
     height: auto;
     width: 100%;
+   
 
 
 }
