@@ -17,15 +17,11 @@
 *{
     margin:0;
     padding:0;
-    /* background-color: blanchedalmond; */
     text-align: center;
-    /* margin-top:10px; */
+  
 }
 
 
-
-
-/* Asignar color al fondo y tipo de letra al body. */
 body{
     background-color: blanchedalmond;
     font-family: 'Nunito', sans-serif;
@@ -33,10 +29,6 @@ body{
     padding: 10px;
 }
 
-/* Selecionar la clase "box-imagenes" y agregar display para que queden en linea,
-color de fondo rgba(42,67,59,0.1), un maximo ancho permitido, ancho,
-sombra rgba(0,0,0,0.6), alinear texto, suavisar borde, asegurar que
-las imágenes no se salgan del contenedor. */
 
 #encabezado{
     grid-area: navegador;
@@ -59,9 +51,6 @@ color: var(--color-texto-header);
 text-decoration: none;
 margin: 0  10px ;
 }
-
-
-
 
 .titulos h1 {
 
@@ -106,19 +95,19 @@ p{
 .grid-conteiner >div{
 
 padding: 20px;
-height: 200px;
-width: auto;
+height: 180px;
+width: 120px;
 margin-top: 30px;
 margin-bottom: 30px;
 margin-left: 30px;
 margin-right: 30px;
 background-color: #71c94b;
 :hover{
+    
     transform: scale(1.8);
     color:#9f3647;
- }
    
-
+ }
 
 
 }
@@ -132,7 +121,7 @@ background-color: #71c94b;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.6);
     border-radius: 1%;
     overflow: hidden;
-    transition: transform 0.35 ease-in-out;
+    
    
 }
 
@@ -151,3 +140,4 @@ background-color: #71c94b;
     color: var(--color-texto-header);
 
 }
+

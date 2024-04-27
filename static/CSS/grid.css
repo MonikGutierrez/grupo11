@@ -12,10 +12,31 @@
     
 
 
-
-.grid-conteiner{
-    display:grid;
+/** este grid-conteiner es de galeria    */
+.grid-conteiner{ 
+   display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    
     grid-gap: 50px; 
+   
+    
 }
+/* .manoRobot{
+    
+    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
+    place-items: center;
+} */
+.animacion{
+   
+    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
+    place-items: center;
+
+    
+    
+
+}
+.videoPresentacion{
+    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
+    place-items: center;
+
+}
+
