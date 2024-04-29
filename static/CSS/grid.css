@@ -2,12 +2,13 @@
     display: grid;
     
     } 
- 
+
 
 
 .titulos h1{
     display: grid;
     grid-template-columns: repeat(1fr) ;
+    
 }
     
 

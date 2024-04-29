@@ -10,33 +10,38 @@
    
 }
 
-
 *{
     margin:0;
     padding:0;
     /* color:#FFF; */
-    /* text-align: center; */
-    margin-top: 10px;
+    
+   
 }
 body{
 
     margin: 0;
     padding: 0;
+    
 }
+.menu{
+    
+    text-align: end;
+    background-color: var(--color-fondo-header)
 
-#encabezado nav{
-
-    display: inline;
-    vertical-align: middle;
 }
 #encabezado{
+    display: grid;
     background-color: var(--color-fondo-header);
-    padding: 10px;
-    text-align: end;
+    padding: 80px;
+    /* text-align: end; */
 }
 
 .hipervin{
+    
 color: var(--color-texto-header);
-text-decoration: none;
+
+
 margin: 0 10px ;
+text-align: right ;
+/* margin-top: 10px; */
 }

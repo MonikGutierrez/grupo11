@@ -17,8 +17,8 @@
     margin:0;
     padding:0;
     /* color:#FFF;  */
-    text-align: center;
-    margin-top: 10px;
+    
+    
  } 
 body{
     font-family: 'Nunito', sans-serif;
@@ -45,112 +45,130 @@ body::after {
     background-color: rgba(255, 255, 255, 0.6);
     z-index: -1; 
 }
-.animacion {
-    display: grid;
-    position:relative;
-    height: 100%; 
-    overflow: hidden;
+
+h1{
+    color: #db4648;  
+   
+}
+h3{
+    font-family: Open_Sans;
+    color: #db4648;
+}
+.link1{
+    color:blue;
+    font-family: fantasy;
+    
 }
 
-.imagen {
-    
-    position: absolute;
-    top: 100%; /* Inicialmente, coloca todas las imágenes fuera del contenedor */
-    left: 0;
+.animacion{
+ width: 1280px; 
+ height: auto;
+ margin: 50px auto 0 ; 
+ overflow: hidden;
+
+ animation: animacion 16s infinite alternate ease-in-out;
+
+
+}
+
+.animacion{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+}
+
+.animacion li{
+    list-style: none;
     width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    opacity: 0; /* Inicialmente, la imagen está oculta */
-    animation-name: miAnimacion;
-    animation-duration: 6s; /* Duración total de la animación (6s por imagen * 4 imágenes) */
-    animation-delay: 0s; /* Retraso inicial antes de que comience la animación */
-    animation-iteration-count: infinite;
 }
 
-.imagen:nth-child(1) {
-
-    width: 500px;
-    height: 500px;
-    top: 0; /* Muestra la primera imagen */
-    animation-delay: 0s; /* Sin retraso para la primera imagen */
+.animacion img{
+    width: 60%;
 }
 
-.imagen:nth-child(2) {
-    
-    width: 500px;
-    height: 500px;
-    top: 0; /* Muestra la segunda imagen */
-    animation-delay: 2s; /* Retraso de 6 segundos para mostrar la segunda imagen */
+@keyframes animacion{
+
+  0%{ margin-left: 0% ;}
+ 20%{ margin-left: 0% ;}
+
+ 25%{ margin-left: -100% ;}
+ 45%{ margin-left: -100% ;}
+
+ 50%{ margin-left: -200% ;}
+ 70%{ margin-left: -200% ;}
+
+ 75%{ margin-left: -300% ;}
+ 95%{ margin-left: -300% ;}
 }
-
-.imagen:nth-child(3) {
-    
-    width: 500px;
-    height: 500px;
-    top: 0; /* Muestra la tercera imagen */
-    animation-delay: 4s; /* Retraso de 12 segundos para mostrar la tercera imagen */
-}
-
-.imagen:nth-child(4) {
-
-    width: 500px;
-    height: 500px;
-    top: 0; /* Muestra la cuarta imagen */
-    animation-delay: 6s; /* Retraso de 18 segundos para mostrar la cuarta imagen */
-}
-
-
-@keyframes miAnimacion {
-    0% {
-        opacity: 0; /* Inicialmente, la imagen está oculta */
-    }
-    16.666% {
-        opacity: 1; /* Muestra la imagen durante 1/6 de la duración total */
-    }
-    83.333%, 100% {
-        opacity: 0; /* Oculta la imagen al final de la animación */
-    }
-}
-
-
-
-
-
 
 
 .videoPresentacion{
-    width: 55vw;
-    height: 50vh;
+    width: 40vw;
+    height: 35vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
 } 
 
-/* .manoRobot{
-    width: 55vw;
-    height: 50vh;
-} */
-
-
-#encabezado{
-    background: var(--color-fondo-header) ;
-    text-align: center;
+.link2{
+    color: blue;
+    font-family: fantasy;
 }
- #logo {
 
-    width: 5vw;
-    height: 5vw;
-    margin-right: 600px;  
+.link3{
+    color: blue;
+    font-family: fantasy;
+}
+
+div h2{
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#logo{
+display:inline-block;
+width: 5vw;
+height: 10vh;
+margin-right: 10px;
+/* float: left; */
+
+}
+#encabezado{
+    display: inline-block;
+    grid-area: navegador;
+    padding: 0;
+    margin: 0;
+
     
- }
-#encabezado div,
+    
+}
+
 #encabezado nav{
-    display: inline;
-    vertical-align: middle;
-        
-    } 
+
+   
+    display: inline-block;
+    background-color: var(--color-fondo-header);
+    text-align: end;
+    margin-bottom: 20px;
+
+    
+}
+
+
+
+
 .hipervin{
+
+display: inline-block;
 color: var(--color-texto-header);
 text-decoration: none;
 margin: 0 10px ;
+text-align: end;
+
+
+
+
 }
 
  .icon{
