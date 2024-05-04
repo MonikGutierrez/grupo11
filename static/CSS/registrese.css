@@ -33,7 +33,7 @@ body{
 #encabezado{
     display: grid;
     background-color: var(--color-fondo-header);
-    padding: 80px;
+    padding: 20px;
     /* text-align: end; */
 }
 
