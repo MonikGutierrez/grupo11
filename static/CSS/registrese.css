@@ -1,0 +1,102 @@
+:root{
+    --bg-color:#181419;
+    --primary-color:#9f3647;
+    --secondary-color:#ffc098;
+    --third-color:#db4648;
+    --third-bis-color:#db4648f2;
+    --bg-input-color:#4f31572c;
+    --color-fondo-header: rgb(209, 248, 209);
+    --color-texto-header: rgb(7, 110, 39); 
+   
+}
+
+*{
+    margin:0;
+    padding:0;
+    /* color:#FFF; */
+    
+   
+}
+body{
+    background-color: blanchedalmond;  
+    margin:0;
+    padding:0;
+}
+
+
+.menu{
+    
+    text-align: end;
+    background-color: var(--color-fondo-header);
+    
+}
+#encabezado{
+    display: grid;
+    background-color: var(--color-fondo-header);
+    padding: 80px;
+    /* text-align: end; */
+}
+
+.hipervin{
+    
+color: var(--color-texto-header);
+margin: 0 10px ;
+text-align: right ;
+/* margin-top: 10px; */
+}
+
+fieldset{
+    width: 50%;
+    background-color: var(--color-fondo-header);
+    padding: 1vw 8vw;
+    border: 1px solid #ccc;
+    box-sizing: border-box;   
+}
+
+legend{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-color);
+}
+
+input{
+    width: 80%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px 12px; 
+}
+
+/* Esto lo hago para centrar el formulario */
+.container_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+/* DAR ESTILOS A LOS BOTONES */
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+  }
+/* ESTO ES PARA QUE EL AREA DE COMENTARIOS QUEDE FIJA */
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  

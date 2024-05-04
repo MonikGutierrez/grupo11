@@ -28,49 +28,56 @@
 
     <section>
 
-        <form  action="https://formspree.io/f/mleqpjea" method="post">
+        <form class="container_form"  action="https://formspree.io/f/mleqpjea" method="post">
            
-        <fieldset >
+        <fieldset>
             
-           <legend>Datos Personales</legend>
+           <legend><h1>Registro</h1></legend>
             
             <div>
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre" required>
+                
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre por favor"  required>
             </div>
             <br>
             <div>
                 <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido" required>
+
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido por favor" required>
             </div>
             <br>
            
             <div>
                 <label for="edad">Edad:</label>
-                <input type="number" name="edad" id="edad" min="8"value>
+                
+                <input type="number" name="edad" id="edad" min="8" max="100" placeholder="Igrese su edad por favor"value required>
             </div>
              <br>
             
              <div>
-                <label for="fecha_de_nacimiento">Fecha Nac.:(dd/mm/yyyy):</label>
-               <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento" >
+                <label for="fecha_de_nacimiento">Fecha de Nacimiento:</label>
+                
+               <input type="date" name="fecha_de_nacimiento" id="fecha_de_nacimiento" required>
             </div>
             <br>
             <div>
                 <label for="direccion">Direccion:</label>
-                <input type="text" name="direccion" id="direccion" >
+                
+                <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección por favor" >
             </div>
             <br>
             <div>
                 <label for="codigo_postal">C.P:</label>
-                <input type="text" name="codigo_postal" id="codigo_postal" >
+                
+                <input type="text" name="codigo_postal" placeholder="Ingrese su código postal por favor" id="codigo_postal" >
             </div>
 
             <br>    
 
             <div>
                 <label for="telefono">Telefono:</label>
-            <input type="tel" name="telefono" id="telefono">
+                
+            <input type="tel" name="telefono" placeholder="Ingrese su teléfono por favor" id="telefono">
              </div>
              <br>
              <div>
@@ -84,29 +91,30 @@
               <br>        
                                    
             <div> 
-                 <p>Conoce las nuevas tecnogias gadget?</p>  
+                 <p>Conoce las nuevas tecnogias gadget?</p>
+                 <br> 
                  <input type="checkbox"name="conoce" value="si" > Si
                  <input type="checkbox"name="conoce" value="no" > No
                  <input type="checkbox" name="conoce" value="poco" > Poco
                  <input type="checkbox"name="conoce" value="nada" > Nada
-                </div>
-                
+            </div>
+            <br>    
             <hr>
             <div>
-                <label for="comentario">Comentario: </label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10" maxlength="200"></textarea>
+                <label for="comentario">Comentarios: </label>
+                <textarea name="comentario" id="comentario" placeholder="Envíenos sus comentarios(max 200 caracteres)" cols="30" rows="10" maxlength="200"></textarea>
                </div>
-
+               
             <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <input type="submit" value="Registrarse">
+                <input type="reset" value="Reset">
             </div>    
             <br>
             <a href="mailto:grupocodoacodo@gmail.com?subject=tpoN1°">Enviar Correo Electronico</a>
         </fieldset>
     </form> 
 </section>
-<img  src="https://img.freepik.com/foto-gratis/tecnologia-fondo-toque-humano-nueva-version-moderna-creacion-adan_53876-129794.jpg?w=740&t=st=1711721872~exp=1711722472~hmac=f7c8a468aa6fba207189c211390491195a28993565ba94dc620b014c2eb28e10">
+<!-- <img  src="https://img.freepik.com/foto-gratis/tecnologia-fondo-toque-humano-nueva-version-moderna-creacion-adan_53876-129794.jpg?w=740&t=st=1711721872~exp=1711722472~hmac=f7c8a468aa6fba207189c211390491195a28993565ba94dc620b014c2eb28e10"> -->
     </main>
     <footer>
 
