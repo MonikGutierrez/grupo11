@@ -1,14 +1,20 @@
-#encabezado{
-    display: grid;
+
+.menu{
+    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
+    place-items: end;
     
-    } 
 
+}
 
+.hipervin{
+    display: flexbox;
+
+}
 
 .titulos h1{
     display: grid;
     grid-template-columns: repeat(1fr) ;
-    
+
 }
     
 
@@ -19,25 +25,22 @@
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
     grid-gap: 50px; 
    
-    
+
 }
-/* .manoRobot{
-    
-    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
-    place-items: center;
-} */
+
+
+
 .animacion{
    
     grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
-    place-items: center;
-
-    
-    
+    place-items: center; 
 
 }
-.videoPresentacion{
-    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
-    place-items: center;
+ 
 
+.linkElectro{
+
+display: grid;
+gap: 20px;
+text-align: end;
 }
-

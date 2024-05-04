@@ -14,26 +14,27 @@
     margin:0;
     padding:0;
     text-align: center;
+
+    
+   
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
     
 }
-
-    body{
-        background-color: blanchedalmond;
-        font-family: 'Nunito', sans-serif;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
-    
 #encavezado{
     display: grid;
     max-width: 100%;
     padding: 0;
     margin: 0;
     
-}
-#encabezado nav{
-
+    
+    }
+    #encabezado nav{
+    
     margin: 0;
     padding:0;
     width: 100%;
@@ -41,29 +42,30 @@
     background-color: var(--color-fondo-header);
     text-align: end;
     align-content: end;
-}  
-
- .hipervin{
+    }  
     
-color: var(--color-texto-header);
-text-decoration: none;
-margin: 0  20px ;
- }
- .menu{
-
+    .hipervin{
+    
+    color: var(--color-texto-header);
+    text-decoration: none;
+    margin: 0  20px ;
+    }
+    .menu{
+    
     display: inline-block;
     color: var(--color-texto-header);
     text-decoration: none;
-
+    
     } 
- #encabezado nav a {
+    #encabezado nav a {
         text-decoration:underline;  
        
     }
- #encabezado{
+    #encabezado{
         margin: 0;
         padding: 0;
         background-color: var(--color-fondo-header);
         text-align: left;
        
         }
+    

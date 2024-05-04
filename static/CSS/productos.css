@@ -10,36 +10,102 @@
    
 }
 
-
-
-
-
 *{
     margin:0;
     padding:0;
-    /* color:#FFF; */
-    text-align: center;
-    margin-top: 10px;
+    /* text-align: center; */
+   
 }
 body{
 
     margin: 0;
     padding: 0;
+    /* width: 100%; */
 }
-#encabezado nav{
-
-  
-    display: inline;
-    vertical-align: middle;
-}
-#encabezado{
+#encavezado{
+    display: grid;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    
+    }
+ #encabezado nav{
+    
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 50px;
     background-color: var(--color-fondo-header);
-    padding: 10px;
-    text-align: end
+    text-align: end;
+    align-content: end;
+    }  
+    
+ .hipervin{
+    
+    color: var(--color-texto-header);
+    text-decoration: none;
+    margin: 0  20px ;
+    }
+    .menu{
+    
+    display: inline-block;
+    color: var(--color-texto-header);
+    text-decoration: none;
+    
+    } 
+#encabezado nav a {
+    text-decoration:underline;  
+    }
+#encabezado{
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-fondo-header);
+    text-align: left;
+   
+       
+    }
+h1,
+h3{
+
+    color: rgb(37, 127, 34);
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.videoProd{
+
+ width: 70vw;
+height: 60vh;
+margin-left: 15vw;
+
+
+
 }
 
-.hipervin{
-color: var(--color-texto-header);
-text-decoration: none;
-margin: 0 10px ;
+.ubicacion{
+
+    width: 70vw;
+    height: 60vh;
+    margin-bottom: 20px;
+    margin-left: 15vw;
+}  
+    
+.linkElectro{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

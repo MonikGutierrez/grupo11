@@ -1,6 +1,4 @@
-/* “:root”, es un selector especial
- que se utiliza principalmente 
- para definir variables personalizadas de CSS */
+
  :root{
     --bg-color:#181419;
     --primary-color:#9f3647;
@@ -16,9 +14,7 @@
 *{
     margin:0;
     padding:0;
-    /* color:#FFF;  */
-    
-    
+     
  } 
 body{
     font-family: 'Nunito', sans-serif;
@@ -104,8 +100,8 @@ h3{
 
 
 .videoPresentacion{
-    width: 40vw;
-    height: 35vh;
+    width: 50vw;
+    height: 45vh;
     margin-top: 20px;
     margin-bottom: 10px;
 } 
@@ -124,39 +120,35 @@ div h2{
     color: brown;
     margin-top: 10px;
     margin-bottom: 5px;
-}
-
-#logo{
-display:inline-block;
-width: 5vw;
-height: 10vh;
-margin-right: 10px;
-/* float: left; */
 
 }
-#encabezado{
-    display: inline-block;
-    grid-area: navegador;
-    padding: 0;
-    margin: 0;
 
+#encabezado {
     
-    
+    background-color: var(--color-fondo-header);
+    text-align: left;
+    overflow: hidden;
 }
-
+#logo {
+    width: 5vw;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
 #encabezado nav{
+float: right;
+margin-right: 20px;
+margin-top: 30px;
+}
 
-   
-    display: inline-block;
+#encabezado div,
+#encabezado nav {
+    display: inline;
+    vertical-align: middle;
     background-color: var(--color-fondo-header);
     text-align: end;
     margin-bottom: 20px;
-
-    
 }
-
-
-
 
 .hipervin{
 
@@ -165,15 +157,49 @@ color: var(--color-texto-header);
 text-decoration: none;
 margin: 0 10px ;
 text-align: end;
-
-
-
-
 }
+
+#encabezado nav a {
+    text-decoration:underline; 
+    color: var(--color-texto-header); /* Color predeterminado para los hipervínculos */
+}
+
+
+
+
+
+
+
 
  .icon{
     width: 40px;
     height: 40px;
     margin: 20px;
     margin-top: 25 vw;
+    text-align: left;
+
  }
+
+ footer {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media div {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.social-media .icon {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media span {
+    display: block;
+    margin-top: 5px;
+}
