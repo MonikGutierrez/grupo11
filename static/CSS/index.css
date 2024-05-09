@@ -47,16 +47,32 @@ h1{
     color: #db4648;  
    
 }
-h3{
+h2{
     font-family: Open_Sans;
     color: #db4648;
 }
 .link1{
     color:blue;
     font-family: fantasy;
-    
+    font-size: 2em;
+}
+.link2{
+    color: blue;
+    font-family: fantasy;
+    font-size: 2em;
 }
 
+.link3{
+    color: blue;
+    font-family: fantasy;
+    font-size: 2em;
+}
+.parrafo1{
+    font-size: 1em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .animacion{
  width: 1280px; 
  height: auto;
@@ -107,15 +123,7 @@ h3{
     margin-bottom: 10px;
 } 
 
-.link2{
-    color: blue;
-    font-family: fantasy;
-}
 
-.link3{
-    color: blue;
-    font-family: fantasy;
-}
 
 div h2{
     color: brown;
@@ -197,3 +205,36 @@ text-align: end;
     display: block;
     margin-top: 5px;
 }
+
+
+ @media screen and (min-width:320px) and (max-width:1024px){
+
+    #encabezado{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+   h2{
+    font-size: 2em;
+   }
+   .parrafo1{
+    font-size: 1em;
+   }
+
+    .animacion{
+        font-size: 2em;
+    }
+    .link1,
+    .link2,
+    .link3{
+        font-size: 1em;
+    }
+    .videoPresentacion{
+        font-size: 2em;
+    }
+    .social-media{
+        font-size: 1em;
+    }
+}  
+    

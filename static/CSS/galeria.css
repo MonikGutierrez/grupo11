@@ -46,9 +46,6 @@ margin: 0  20px ;
 
 } 
  .menu{
-
-   
-
     display: inline-block;
     color: var(--color-texto-header);
     text-decoration: none;
