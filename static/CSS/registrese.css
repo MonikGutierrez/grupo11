@@ -34,7 +34,7 @@ body{
     display: grid;
     background-color: var(--color-fondo-header);
     padding: 20px;
-    /* text-align: end; */
+    
 }
 
 .hipervin{
@@ -42,8 +42,10 @@ body{
 color: var(--color-texto-header);
 margin: 0 10px ;
 text-align: right ;
-/* margin-top: 10px; */
+
 }
+
+
 
 fieldset{
     width: 50%;
@@ -66,6 +68,8 @@ input{
     padding: 8px 12px; 
 }
 
+
+
 /* Esto lo hago para centrar el formulario */
 .container_form{
     display: flex;
@@ -87,7 +91,10 @@ input[type=button], input[type=submit], input[type=reset]{
     margin: 4px 2px;
     cursor: pointer;
     width: 30%;
+    
   }
+
+
 /* ESTO ES PARA QUE EL AREA DE COMENTARIOS QUEDE FIJA */
   textarea {
     width: 100%;
@@ -99,4 +106,5 @@ input[type=button], input[type=submit], input[type=reset]{
     background-color: #f8f8f8;
     resize: none;
   }
+  
   

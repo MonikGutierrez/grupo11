@@ -21,7 +21,8 @@ body{
     color: var(--primary-color);
     background-image: url(../img/img\ caricatu\ vs\ gadgets.jpg);
     background-size: cover; 
-    background-position: center;     background-repeat: no-repeat; 
+    background-position: center;    
+    background-repeat: no-repeat; 
     margin:0;
     padding:0;
     text-align: center;
@@ -163,13 +164,6 @@ text-align: end;
     text-decoration:underline; 
     color: var(--color-texto-header); /* Color predeterminado para los hipervínculos */
 }
-
-
-
-
-
-
-
 
  .icon{
     width: 40px;

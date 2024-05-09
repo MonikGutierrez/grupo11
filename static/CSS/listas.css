@@ -13,18 +13,147 @@
 *{
     margin:0;
     padding:0;
-    text-align: center;
+    /* text-align: center; */
     
 }
+body{
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-color);
+    background-image: url(../img/FONDO\ 1.jpg);
+    background-size: cover; 
+    background-position: center;    
+    background-repeat: no-repeat; 
+    margin:0;
+    padding:0;
+    text-align: left;
 
-    body{
-        background-color: blanchedalmond;
-        font-family: 'Nunito', sans-serif;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
+}
+
+body::after {
+    margin:0;
+    padding:0;
+    text-align: center;
+    content: ""; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: -1; 
+}
+h1{ 
+    display: inline;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    color: #0f57f4;
+}
+.funcionesGadgets{
+    display: inline;
+    color: var(--color-texto-header)
     
+}
+    
+
+
+p {
+    display: inline-block;
+
+    font-size: 1.8rem;
+    font-family: 'Arial', sans-serif; 
+    color: #23830d; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+    padding: 20px; 
+    border-radius: 20%; 
+    background-color: #cadcea; 
+    display: inline-block; 
+    box-shadow: 0 0 20px rgba(20, 33, 25, 1); 
+    transform: rotate(-5deg); 
+    width: 35rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    
+    
+  }
+  .imgCateg{
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+  }
+
+.categ1{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1340f0;
+    text-align: center;
+}
+
+.categ1::before {
+    content: '\25B6'; 
+    color: rgb(16, 226, 44);
+    margin-right: 5px;
+    font-size: xx-large;
+} 
+
+.item1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    list-style-type: disc;
+    color:rgb(71, 134, 9);
+    font-size: x-large;
+}
+.item1::before{
+    content: '•'; 
+    color: rgb(223, 58, 17);
+    margin-right: 5px; 
+    margin-bottom: 20px;
+    font-size:medium;
+}
+
+
+
+
+.img_list{
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.list-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tex-list{
+    font-size: x-large;
+}
+
+
+.footer{
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+
+
+
+
+
 #encavezado{
     display: grid;
     max-width: 100%;
@@ -67,3 +196,4 @@ margin: 0  20px ;
         text-align: left;
        
         }
+

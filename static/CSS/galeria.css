@@ -47,24 +47,23 @@ margin: 0  20px ;
 } 
  .menu{
 
-    /* display: block; */
+   
 
     display: inline-block;
     color: var(--color-texto-header);
     text-decoration: none;
-/*     
-    text-align: end; */
+
     } 
  #encabezado nav a {
         text-decoration:underline;  
-       /* color: var(--color-texto-header);  Color predeterminado para los hipervínculos */
+       
     }
  #encabezado{
         margin: 0;
         padding: 0;
         background-color: var(--color-fondo-header);
         text-align: left;
-        /* overflow: hidden; */
+        
         }
 
  body{
@@ -110,7 +109,7 @@ h3{
 p{
     text-align: justify;
     font-size: larger;
-    /* font-size: 1rem; */
+   
     font-family: 'Times New Roman', Times, serif;
     color: var(--color-texto-header);
 }
