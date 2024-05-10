@@ -28,7 +28,7 @@ body{
     
     text-align: end;
     background-color: var(--color-fondo-header);
-    
+        
 }
 #encabezado{
     display: grid;
@@ -41,8 +41,17 @@ body{
     
 color: var(--color-texto-header);
 margin: 0 10px ;
-text-align: right ;
+text-align: right;
+text-decoration: none;
 /* margin-top: 10px; */
+}
+
+a:hover{
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    padding: 15px 8px;
+
 }
 
 fieldset{
@@ -56,7 +65,7 @@ fieldset{
 legend{
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    color: var(--primary-color);
+    padding-top: 5vh;
 }
 
 input{
@@ -86,7 +95,7 @@ input[type=button], input[type=submit], input[type=reset]{
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    width: 30%;
+    width: 80%;
   }
 /* ESTO ES PARA QUE EL AREA DE COMENTARIOS QUEDE FIJA */
   textarea {
