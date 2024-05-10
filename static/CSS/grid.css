@@ -1,15 +1,4 @@
 
-.menu{
-    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
-    place-items: end;
-    
-
-}
-
-.hipervin{
-    display: flexbox;
-
-}
 
 .titulos h1{
     display: grid;
@@ -43,4 +32,28 @@
 display: grid;
 gap: 20px;
 text-align: end;
+
 }
+.funcionesGadgets{
+ display: grid;
+ gap: 20px;
+ text-align: left;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 10px;
+ font-size: 1.5rem;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item1{
+    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
+    
+    
+    
+}
+.img_list{
+display: grid;
+gap:20px
+}
+
+
