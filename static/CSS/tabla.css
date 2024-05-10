@@ -21,8 +21,9 @@
 
 
 body{
-    background-color: blanchedalmond;
-    font-family: 'Nunito', sans-serif;
+    background-color: rgb(81, 172, 172);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(223, 220, 210);
     margin: 0;
     padding: 0;
     
