@@ -1,15 +1,4 @@
 
-.menu{
-    grid-template-columns: repeat(auto-fill, minmax( 100%)) ;
-    place-items: end;
-    
-
-}
-
-.hipervin{
-    display: flexbox;
-
-}
 
 .titulos h1{
     display: grid;
