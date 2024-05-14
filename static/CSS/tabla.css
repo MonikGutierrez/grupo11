@@ -15,19 +15,42 @@
 *{
     margin:0;
     padding:0;
- 
-   
 }
 
 
 body{
     background-color: rgb(81, 172, 172);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(223, 220, 210);
     margin: 0;
     padding: 0;
     
 }
+
+h1{ color: greenyellow;
+    text-align: center;
+    margin-top: 20px;
+  }
+h2{ color: greenyellow;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+h3{ color: aliceblue;
+    text-align: center;
+  }
+p{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+th{
+   color: aquamarine;
+  }
+td{
+    color: aquamarine;
+    text-align: center;
+}  
+
+
 #encavezado{
     display: grid;
     max-width: 100%;
@@ -46,7 +69,7 @@ body{
     align-content: end;
 }  
 
- .hipervin{
+.hipervin{
     
 color: var(--color-texto-header);
 text-decoration: none;
@@ -61,35 +84,29 @@ font-size: 1em;
 }
 
 #encabezado nav a {
-    
-text-decoration: underline;
-}
+    text-decoration: underline;
+                  }
 #encabezado{
     margin: 0;
     padding: 0;
     background-color: var(--color-fondo-header);
     text-align: left;
-    /* overflow: hidden; */
-}
+    /* overflow: hidden; */ 
+           }
 
 
         
-            @media screen and (min-width:320px) and (max-width:1024px){
-                #encabezado{
-                    font-size: 1em;
-                    
-                }
+@media screen and (min-width:320px) and (max-width:1024px)
+{
+       #encabezado{
+       font-size: 1em;
+                  }
+}     
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-color: rgb(41, 51, 82);
+    }
                 
-                    }
-
-
-
-
-
-
-
-
-
-
-
-
