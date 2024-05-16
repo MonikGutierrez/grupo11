@@ -10,21 +10,17 @@
    
 }
 
-
-
 *{
     margin:0;
     padding:0;
-}
-
+ }
 
 body{
     background-color: rgb(81, 172, 172);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
-}
+    }
 
 h1{ color: greenyellow;
     text-align: center;
@@ -42,10 +38,13 @@ p{
     margin-top: 30px;
   }
 
+
 th{
    color: aquamarine;
+   padding: 8px;
   }
 td{
+    padding: 8px;
     color: aquamarine;
     text-align: center;
 }  
@@ -83,6 +82,10 @@ font-size: 1em;
     text-decoration: none;
 }
 
+.tabla-container{
+    overflow-x: auto;
+}
+
 #encabezado nav a {
     text-decoration: underline;
                   }
@@ -94,14 +97,84 @@ font-size: 1em;
     /* overflow: hidden; */ 
            }
 
+  
 
-        
-@media screen and (min-width:320px) and (max-width:1024px)
-{
-       #encabezado{
-       font-size: 1em;
-                  }
-}     
+/* Estilos para celulares */
+@media only screen and (max-width: 767px)
+   {
+    #encabezado{
+    font-size: 0.7em;
+               }
+    h1{
+        font-size: 1em;
+      }       
+    h2{
+       font-size: 1em;  
+      }  
+    h3{
+       font-size: 0.8em;
+      }      
+    p{
+      font-size: 0.7em ;
+     }  
+     table{
+        width: 10%;
+        border-collapse: collapse;
+          } 
+     th,td{
+        font-size:0.7em ;
+          }
+     td iframe{
+        width: auto;
+        height: auto;
+              }     
+   }
+  
+  /* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+   {
+    #encabezado{
+    font-size: 0.85em;
+               }
+    h1{
+       font-size: 1.5em;
+      }       
+    h2{
+       font-size: 1.5em;  
+      }    
+    h3{
+        font-size: 1em;
+      }    
+    p{
+      font-size: 0.85em;
+     }  s
+     th,td{
+        font-size:0.85em;
+          }
+    
+   }
+   
+  /* Estilos para PCs */
+@media only screen and (min-width: 1024px) 
+  {
+    #encabezado{
+               font-size: 1em;
+               }
+    h1,h2{
+          font-size: 2em;
+         }
+    h3{
+        font-size: 1.2em;
+    }
+    p{
+      font-size: 1em ;
+     } 
+     th,td{
+        font-size:1em;
+          }
+  
+  }
+  
 
 table{
     margin-left: auto;
