@@ -49,7 +49,7 @@ td{
     text-align: center;
 }  
 
-
+/*Estilos para la barra del navegador de la aplicación web*/
 #encavezado{
     display: grid;
     max-width: 100%;
@@ -67,6 +67,14 @@ td{
     text-align: end;
     align-content: end;
 }  
+#encabezado{
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-fondo-header);
+  text-align: left;
+  /* overflow: hidden; */ 
+         }
+
 
 .hipervin{
     
@@ -89,17 +97,10 @@ font-size: 1em;
 #encabezado nav a {
     text-decoration: underline;
                   }
-#encabezado{
-    margin: 0;
-    padding: 0;
-    background-color: var(--color-fondo-header);
-    text-align: left;
-    /* overflow: hidden; */ 
-           }
 
   
 
-/* Estilos para celulares */
+/* Estilos para pantallas de celulares */
 @media only screen and (max-width: 767px)
    {
     #encabezado{
@@ -130,7 +131,7 @@ font-size: 1em;
               }     
    }
   
-  /* Estilos para tablets */
+/* Estilos para pantallas de tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) 
    {
     #encabezado{
@@ -154,7 +155,7 @@ font-size: 1em;
     
    }
    
-  /* Estilos para PCs */
+/* Estilos para pantallas de PCs */
 @media only screen and (min-width: 1024px) 
   {
     #encabezado{
@@ -174,8 +175,8 @@ font-size: 1em;
           }
   
   }
-  
 
+/*Estilos para la tabla*/
 table{
     margin-left: auto;
     margin-right: auto;
