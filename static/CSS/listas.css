@@ -13,7 +13,7 @@
 *{
     margin:0;
     padding:0;
-    /* text-align: center; */
+    
     
 }
 body{
@@ -127,8 +127,6 @@ p {
 }
 
 
-
-
 .img_list{
     display: grid;
     width: 100%;
@@ -198,10 +196,10 @@ p {
             margin: 0;
             padding: 0;
             background-color: var(--color-fondo-header);
-            text-align: left;
+            text-align: left; 
             
             }
-    
+
     @media screen and (min-width: 320px) and (max-width:1024px){
         #encabezado {
             font-size: 1em; 
@@ -246,7 +244,21 @@ p {
         text-align:justify;
     }
 
-   
+ 
+    .hipervin{
+        
+    color: var(--color-texto-header);
+    margin: 0 10px ;
+    text-align: right;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    } */
+    
+
+
+
+
+
     
     .footer div {
         font-size: 1em;

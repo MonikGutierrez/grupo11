@@ -117,25 +117,24 @@ font-size: 1em;
 	transform: translateY(-7px);
 }
 
-#encabezado nav a {
+#encabezado nav a{
     text-decoration: underline;
-                  }
-
-                 @media only screen and (max-width: 600px) {
-                    .btn-flotante {
-                     font-size: 14px;
-                     padding: 12px 20px;
-                     bottom: 20px;
-                     right: 20px;
-                   }
-                 } 
+ }
+ @media only screen and (max-width: 600px) {
+ .btn-flotante {
+   font-size: 14px;
+   padding: 12px 20px;
+   bottom: 20px;
+   right: 20px;
+   }
+ } 
 
 /* Estilos para pantallas de celulares */
 @media only screen and (max-width: 767px)
    {
     #encabezado{
     font-size: 0.7em;
-               }
+    }
     h1{
         font-size: 1em;
       }       
@@ -148,17 +147,17 @@ font-size: 1em;
     p{
       font-size: 0.7em ;
      }  
-     table{
-        width: 10%;
-        border-collapse: collapse;
-          } 
-     th,td{
-        font-size:0.7em ;
-          }
-     td iframe{
-        width: auto;
-        height: auto;
-              }     
+    table{
+     width: 10%;
+     border-collapse: collapse;
+     } 
+    th,td{
+     font-size:0.7em ;
+     }
+    td iframe{
+     width: auto;
+     height: auto;
+    }     
    }
   
 /* Estilos para pantallas de tablets */
@@ -166,7 +165,7 @@ font-size: 1em;
    {
     #encabezado{
     font-size: 0.85em;
-               }
+      }
     h1{
        font-size: 1.5em;
       }       
@@ -181,7 +180,7 @@ font-size: 1em;
      }  s
      th,td{
         font-size:0.85em;
-          }
+     }
     
    }
    
@@ -189,28 +188,28 @@ font-size: 1em;
 @media only screen and (min-width: 1024px) 
   {
     #encabezado{
-               font-size: 1em;
-               }
+     font-size: 1em;
+    }
     h1,h2{
-          font-size: 2em;
-         }
+     font-size: 2em;
+    }
     h3{
-        font-size: 1.2em;
+     font-size: 1.2em;
     }
     p{
       font-size: 1em ;
      } 
      th,td{
-        font-size:1em;
-          }
+     font-size:1em;
+     }
   
   }
 
 /*Estilos para la tabla*/
 table{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    border-color: rgb(41, 51, 82);
-    }
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-color: rgb(41, 51, 82);
+  }
                 

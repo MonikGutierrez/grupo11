@@ -13,7 +13,7 @@
 *{
     margin:0;
     padding:0;
-    /* color:#FFF; */
+   
     
    
 }
@@ -34,7 +34,7 @@ body{
     display: grid;
     background-color: var(--color-fondo-header);
     padding: 20px;
-    /* text-align: end; */
+   
 }
 
 .hipervin{
@@ -43,7 +43,7 @@ color: var(--color-texto-header);
 margin: 0 10px ;
 text-align: right;
 text-decoration: none;
-/* margin-top: 10px; */
+
 }
 
 a:hover{
@@ -74,7 +74,6 @@ input{
     box-sizing: border-box;
     padding: 8px 12px; 
 }
-
 
 
 /* Esto lo hago para centrar el formulario */
@@ -149,9 +148,9 @@ font-size: 0.7em;
 }
   @media screen and (min-width:320px) and (max-width:1024px){
     #encabezado{
-        font-size: 1em;
+    font-size: 1em;
         
     }
-    
-        }
+
+}
   
