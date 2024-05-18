@@ -71,7 +71,7 @@ margin: 0  20px ;
             padding: 0;
             margin-right: 10px;
             margin-left: 5px;
-            width: 99%;
+            width: 97%;
        
             
             
@@ -167,6 +167,15 @@ background-color: #71c94b;
 }
 
 
-.subir{
-    color: blue;
+.subir-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #12ea24;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+
